@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+
+body{
+    background-color: #ede0e0;
+}
+
+/* ============ nav ===================== */
+
+
+
+.box-wrap{
+    background-color: black;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+
+.box-wrap .box-1{
+    height: 70%;
+    display: flex;
+    justify-content:center;
+    margin: 0.6rem;
+}
+
+.box-wrap .box-2{
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    height: 100%;
+    margin: 5px 50px;
+}
+
+.box-wrap .box-2 .search-box{
+    width: 80%;
+    height: 90%;
+}
+
+.box-wrap .box-2 .search{
+    height: 98%;
+    width: 7%;
+    background-color: rgb(234, 157, 80);
+}
+
+.box-wrap .box-3{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* =========== HEADER 2nd ============= */
+
+.main-box{
+    background-image: url('https://m.media-amazon.com/images/I/81YUTSf1uyL._SX3000_.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 1700px;
+}
+
+.head-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+
+.sec-1{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 0 10px;
+    background-color:white;
+}
+
+.sec-2{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 0 10px;
+    background-color:white;
+}
+
+.sec-3{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 0 10px;
+    background-color:white;
+}
+
+.sec-4{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 0 10px;
+    background-color:white;
+    height: 80px;
+}
+
+.sec-4 .sign{
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(234, 157, 80);
+    font-weight: 700;
+    font-size: large;
+}
+
+
+
+
+
+.xtra{
+    color: blue;
+}
+
+/* ---------------------------main part----------------------------------- */
+
+.main-part-1{
+    /* background-color: #cdcdcd; */
+    background-color: #ede0e0;
+    width: 96.9%;
+    padding: 30px;
+}
+
+.border-1{
+    background-color: white;
+    width: 97%;
+    padding: 30px;
+}
+
+.main-1-box{
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+.part{
+    display: flex;
+}
+
+.part img{
+    height: 250px;
+}
+
+.part .other{
+    margin-top: 50px;
+    height: 150px;
+}
+
+/* ------- */
+
+
+.main-part-2{
+    /* background-color: #cdcdcd; */
+    background-color: #ede0e0;
+    width: 96.9%;
+    padding: 30px;
+}
+
+.border-2{
+    background-color: white;
+    width: 97%;
+    padding: 30px;
+}
+
+.main-2-box{
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto;
+    gap: 150px;
+}
+
+.section{
+    display: flex;
+}
+
+.section img{
+    height: 300px;
+}
+
+.txt-m{
+    padding: 20px;
+}
+
+/* -------- footer -------- */
+
+.foot .l1 .search{
+    padding: 10px;
+    height: 98%;
+    width: 7%;
+    background-color: rgb(234, 157, 80);
+}
